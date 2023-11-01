@@ -7,6 +7,19 @@
     <title>Project_2_Explore_Indonesia_Team_1</title>
 </head>
 <body>
-
+    <!-- Photo Gallery -->
+    <div class="photo-gallery">
+        <div class="photo-gallery-box">
+            <h2 class="photo-gallery-box__title">Photo Gallery</h2>
+            <p class="photo-gallery-box__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
+            <picture>
+                <!-- desktop -->
+                <source srcset="./img/group15(desktop)_1x.jpg 1x, ./img/group15(desktop)_2x.jpg 2x" media="(min-width: 1200px)">
+                <!-- mobile -->
+                <source srcset="./img/group15(mobile)_1x.jpg 1x, ./img/group15(mobile)_1x.jpg 2x"  media="(max-width: 480px)">
+                <img class="photo-gallery-box__img" src="./img/group15.jpg" alt="group 15">
+            </picture>
+        </div>
+    </div>
 </body>
 </html>
