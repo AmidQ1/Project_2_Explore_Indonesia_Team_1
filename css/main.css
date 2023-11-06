@@ -1,0 +1,71 @@
+
+.header-allcontainer {
+    background-color: #06444c;
+    width: 1920px;
+    height: 100px;
+}
+.text-explore_indonesia {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 23.961px;
+font-style: normal;
+font-weight: 900;
+line-height: 80.5%; /* 19.288px */
+letter-spacing: 0.315px;
+text-transform: uppercase;
+position: relative;
+margin-left: 35px;
+top: -64px;
+
+}
+.block-explore_indonesia-gradient {
+    opacity: 0.2;
+background: linear-gradient(180deg, rgba(1, 132, 149, 0.00) 7.41%, #018394 90%);
+width: 166.086px;
+height: 20px;
+flex-shrink: 0;
+position: relative;
+top: -105px;
+margin-left: 10px;
+}
+ol {
+    list-style-type:  none;
+
+}
+.list-in-block_indonesia-gradient_ {
+   
+    position: relative;
+    top: -170px;
+    margin-left: 200px;
+}
+.list-indonesia-margin {
+    margin-right: 30px;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.list-indonesia-margin-flex{
+    display: flex;
+    margin-left: 35px;
+    
+}
+.list-indonesia-margi {
+    margin-right: 30px;
+}
+.svg-search {
+    position: relative;
+  right: -1200px;
+  top: -220px;
+}
+.svg-menu-svg {
+    position: relative;
+    right: -1270px;
+    top: -248px;
+}
+
