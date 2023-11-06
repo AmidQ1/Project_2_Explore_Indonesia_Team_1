@@ -6,3 +6,105 @@
 
 
 // SASS main
+
+.article__header {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-top: 201px;
+}
+
+.article__subheader {
+    color: var(--Text-Lighten, #E0E0E0);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    width: 484px;
+    height: 102px;
+    padding-left: 718px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.subarticle__header {
+    color: #DD2242;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42.137px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.16px;
+    letter-spacing: 0.386px;
+}
+
+.subarticle__subheader {
+    color: var(--Text-Lighten, #E0E0E0);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    height: 70.229px
+}
+
+.article__btn {
+    display: flex;
+    width: 210px;
+    height: 64px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 122px;
+    background: #DD2242;
+    border: none;
+    margin-left: 855px;
+}
+
+.article__btn--text {
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.another_article_header {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-left: 653px;
+    padding-top: 249px;
+}
+
+.another_article_subheader {
+    color: var(--Paragraph-Dark, #6F7787);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding-left: 725px;
+}
