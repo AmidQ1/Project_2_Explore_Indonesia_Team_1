@@ -1,0 +1,40 @@
+.slick-dots li.slick-active button:before {
+    width: 26px;
+    border-radius: 12px;
+    background: red;
+  }
+  
+  .slick-dots li button:before {
+    opacity: 1;
+    background: grey;
+    content: "";
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+    border-radius: 50%;
+  }
+  
+  .slick-next:before {
+    content: ">";
+    font-size: 30px;
+    font-weight: bold;
+    color: #020b20;
+  }
+  
+  .slick-prev:before {
+    content: "<";
+    font-size: 30px;
+    font-weight: bold;
+    color: #020b20;
+  }
+  
+  .carousel {
+    margin: 0 auto;
+  }
+  
+  .photo img {
+    width: calc(100% - 16px);
+    height: 100%;
+    max-width: 450px;
+  }
+  
