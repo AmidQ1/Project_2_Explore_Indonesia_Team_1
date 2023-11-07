@@ -7,28 +7,45 @@
   background: #DD2242;
 }
 
+.container {
+  width: 100%;
+}
+
 .banner {
-  background: url(../img/banner-dekstop.png), linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%);
+  width: 100%;
+  height: 1104px;
+  background: url(../img/banner.png), linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%);
   background-size: cover;
   background-repeat: no-repeat;
-}
-.banner-box-line {
-  position: absolute;
-  top: 135px;
-  left: 71px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.banner-box-line {
+  display: none;
+}
+.banner-box-line__line {
+  display: none;
 }
 .banner-box-line__text {
-  margin-top: 321px;
+  display: none;
 }
 .banner-main-box {
+  width: 314px;
   height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 54px;
 }
 .banner-main-box__title {
   color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 58.152px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 62.997px;
+  text-transform: uppercase;
 }
 .banner-main-box__button {
   font-size: 18px;
@@ -36,22 +53,25 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
+  width: 315px;
+  height: 59px;
   color: #FFFFFF;
 }
 .banner-minor {
+  width: 314px;
+  height: 472px;
   border: 1px solid #000;
   opacity: 0.6;
   background: #000;
-  display: flex;
 }
 .banner-minor-box {
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-right: 72px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  position: relative;
 }
 .banner-minor-box__number {
-  width: 210.109px;
   color: #DD2242;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -59,18 +79,17 @@
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+  margin: 0;
 }
 .banner-minor-box__title {
-  width: 210.109px;
-  font-size: 26.409px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
-  line-height: 41.081px;
+  line-height: 41px;
   color: #FFFFFF;
   margin: 0;
 }
 .banner-minor-box__subtitle {
-  width: 210.109px;
   color: #939393;
   font-size: 16px;
   font-style: normal;
@@ -80,129 +99,23 @@
   margin: 0;
 }
 .banner-minor-box__video {
-  width: 417.217px;
-  height: 254px;
-  position: relative;
-  bottom: 43px;
+  width: 316px;
+  height: 191px;
+  margin-top: 40px;
 }
 
-.minor-box {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: 175px;
-  right: 420px;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  .banner {
-    width: 100%;
-    height: 1104px;
-    background: url(../img/banner.png), linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .banner-box-line {
-    display: none;
-  }
-  .banner-box-line__line {
-    display: none;
-  }
-  .banner-box-line__text {
-    display: none;
-  }
-  .banner-main-box {
-    width: 314px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 54px;
-  }
-  .banner-main-box__title {
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 58.152px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 62.997px;
-    text-transform: uppercase;
-  }
-  .banner-main-box__button {
-    width: 315px;
-    height: 59px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    color: #FFFFFF;
-  }
-  .banner-minor {
-    width: 314px;
-    height: 472px;
-    border: 1px solid #000;
-    opacity: 0.6;
-    background: #000;
-  }
-  .banner-minor-box {
-    margin-left: 32px;
-    margin-top: 32px;
-    margin-right: 72px;
-    display: flex;
-    flex-direction: column;
-  }
-  .banner-minor-box__number {
-    color: #DD2242;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    margin: 0;
-  }
-  .banner-minor-box__title {
-    font-size: 26.409px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 41.081px;
-    color: #FFFFFF;
-    margin: 0;
-  }
-  .banner-minor-box__subtitle {
-    color: #939393;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    margin: 0;
-  }
-  .banner-minor-box__video {
-    width: 316px;
-    height: 191px;
-    margin-top: 40px;
-  }
-}
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .container {
     width: 100%;
     margin: 0 auto;
   }
   .banner {
-    width: 100%;
     height: 1080px;
     background: url(../img/banner-dekstop.png), linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
   }
   .banner-box-line {
     position: absolute;
@@ -215,13 +128,13 @@
     margin-top: 321px;
   }
   .banner-main-box {
-    height: auto;
-    display: flex;
-    flex-direction: column;
     margin-left: 277px;
-    margin-bottom: 241px;
+    margin-bottom: 110px;
+    display: flex;
+    align-items: flex-start;
   }
   .banner-main-box__title {
+    width: 627px;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 120px;
@@ -231,7 +144,7 @@
     text-transform: uppercase;
   }
   .banner-main-box__button {
-    width: 271.141px;
+    width: 271px;
     height: 82px;
     border-radius: 211px;
     font-size: 18px;
@@ -242,7 +155,7 @@
     color: #FFFFFF;
   }
   .banner-minor {
-    width: 1225.638px;
+    width: 1226px;
     height: 210px;
     border: 1px solid #000;
     opacity: 0.6;
@@ -270,10 +183,10 @@
   }
   .banner-minor-box__title {
     width: 210.109px;
-    font-size: 26.409px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 41.081px;
+    line-height: 41px;
     color: #FFFFFF;
     margin: 0;
   }
@@ -291,7 +204,7 @@
     width: 417.217px;
     height: 254px;
     position: relative;
-    bottom: 43px;
+    bottom: 81px;
   }
   .minor-box {
     width: 100%;
