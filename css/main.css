@@ -1,5 +1,5 @@
 .photo-gallery {
-  width: 375px;
+  width: 100%;
   height: 752px;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@
 
 @media (min-width: 1200px) {
   .photo-gallery {
-    width: 1920px;
+    width: 100%;
     height: 1388px;
     display: flex;
     justify-content: center;
