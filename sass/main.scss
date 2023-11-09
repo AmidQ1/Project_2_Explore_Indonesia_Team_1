@@ -1,7 +1,78 @@
 // SASS utils
-
+@import "utils/placeholders";
+@import "utils/mixins";
 
 // SASS comp
 
 
 // SASS main
+footer {
+    background: var(--Blue---Background, #010A20);
+}
+
+// .site_logo {
+
+// }
+
+.site_logo_text {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 91%;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.site_logo_text-span {
+    color: #DD2242;
+}
+
+.site_logo_img {
+    height: 66px;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 34px;
+    // align-items: center;
+}
+
+.site_logo_text {
+    width: 128px;
+    height: 57px;
+}
+
+// .footer_list {
+
+// }
+
+.footer_list_item {
+    color: var(--main-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 36px;
+}
+
+// .social {
+
+// }
+
+.footer_copyright_text {
+    color: var(--main-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
