@@ -1,6 +1,4 @@
-.container{
-    width: 100%;
-}
+
 .banner{
     width: 100%;
     height: 1104px;
@@ -103,10 +101,6 @@
 }
 
 @media(min-width: 1200px){
-    .container{
-        width: 100%;
-        margin: 0 auto;
-    }
     .banner{
         height: 1080px;
         background: url(../img/banner-dekstop.png), linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%);
@@ -116,13 +110,19 @@
             align-items: flex-start;
     
         &-box-line{
+            display: block;
             position: absolute;
             top: 135px;
             left: 71px;
             display: flex;
             flex-direction: column;
     
+            &__line{
+                display: block;
+            }
+
             &__text{
+                display: block;
                 margin-top: 321px;
             }
         }
@@ -135,81 +135,49 @@
     
             &__title{
                 width: 627px;
-                color: $white_color;
                 
-                font-family: "Roboto", sans-serif;
                 font-size: 120px;
-                font-style: normal;
-                font-weight: 900;
                 line-height: 130px;
-                text-transform: uppercase;
             }
                 
             &__button{
                 width: 271px;
                 height: 82px;
                 border-radius: 211px;
-                @extend %bth;
-                
-                @include txt;
-                color: $white_color;
             }
         }
     
         &-minor{
             width: 1226px;
             height: 210px;
-    
-            border: 1px solid #000;
-    
-            opacity: 0.6;
-            background: #000;
             display: flex;
     
             &-box{
-                width: 210.109px;
+                width: 210px;
                 margin-left: 69px;
                 margin-right: 130px;
     
                 display: flex;
                 
-                flex-direction: column;
                 justify-content: center;
     
                 position: relative;
     
                 &__number{
-                    width: 210.109px;
-                    color: #DD2242;
-    
-                    font-family: "Roboto", sans-serif;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 900;
-                    line-height: normal;
-                    text-transform: uppercase;
+                    width: 210px;
                 }
     
                 &__title{
-                    width: 210.109px;
-                    @include title_text_min;
-                    color: $white_color;
+                    width: 210px;
                     margin: 0;
                 }
     
                 &__subtitle{
-                    width: 210.109px;
-                    color: #939393;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 24px;
-                    letter-spacing: 0.5px;
-                    margin: 0;
+                    width: 210px;
                 }
     
                 &__video{
-                    width: 417.217px;
+                    width: 417px;
                     height: 254px;
                     position: relative;
                     bottom: 81px;
@@ -219,7 +187,7 @@
     }
     
     .minor-box{
-        width: 84%;       
+        width: 81.5%;       
     
         display: flex;
         align-items: flex-end;
