@@ -123,6 +123,15 @@
   background: red;
 }
 
+.multiple-items.carousel {
+  width: 1200px !important;
+}
+
+@media (max-width: 480px) {
+  .multiple-items.carousel {
+    width: 500px;
+  }
+}
 .slick-dots li button:before {
   opacity: 1;
   background: grey;
@@ -135,15 +144,15 @@
 }
 
 .slick-next:before {
-  content: ">";
-  font-size: 30px;
+  content: ">" !important;
+  font-size: 30px !important;
   font-weight: bold;
   color: #020b20;
 }
 
 .slick-prev:before {
-  content: "<";
-  font-size: 30px;
+  content: "<" !important;
+  font-size: 30px !important;
   font-weight: bold;
   color: #020b20;
 }
