@@ -1,7 +1,7 @@
 // Explore Our Secrets
 .explore{
-    width: 100%;  
-    background: url(../img/explore-img-mobile.jpg), lightgray -585px -328px / 416.246% 113.662% no-repeat;
+    width: 100% !important;  
+    background: url(../img/explore-img-mobile.jpg), lightgray;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -81,11 +81,29 @@
 }
 
 
+.carousel{
+    &-mobile{
+        display: block !important;
+    }
+    &-dekstop{
+        display: none !important;
+    }
+}
+
 
 
 @media (min-width: 1200px){
+    .carousel{
+        &-mobile{
+            display: none !important;
+        }
+        &-dekstop{
+            display: block !important;
+        }
+    }
+
     .explore{
-        background: url(../img/explore-img-dekstop.jpg), lightgray -585px -328px / 416.246% 113.662% no-repeat;
+        background: url(../img/explore-img-dekstop.jpg), lightgray;
         background-repeat: no-repeat;
         &-box_shadow{
             width: 100%;
