@@ -26,7 +26,7 @@
             <h2 class="explore-box_title-text">Explore Our Secrets</h2>
         </article>
         
-        <article class="multiple-items carousel carousel-mobile" style="width: 400px !important;">
+        <article class="multiple-items-mobile carousel carousel-mobile" style="width: 400px !important;">
             <div class="photo">
               <img
                 src="./img/explore.png"
@@ -115,6 +115,16 @@
                 dots: true,
                 arrows: true,
                 slidesToShow: 3,
+                slidesToScroll: 1
+              });
+            });
+
+            $(document).ready(function () {
+              $(".multiple-items-mobile").slick({
+                infinite: true,
+                dots: true,
+                arrows: true,
+                slidesToShow: 1,
                 slidesToScroll: 1
               });
             });
