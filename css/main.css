@@ -95,7 +95,9 @@
     display: block !important;
   }
   .explore {
+    width: 100%;
     background: url(../img/explore-img-dekstop.jpg), lightgray;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .explore-box_shadow {
