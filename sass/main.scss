@@ -8,11 +8,15 @@
 // SASS main
 footer {
     background: var(--Blue---Background, #010A20);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-// .site_logo {
-
-// }
+.site__logo {
+    display: flex;
+    // align-items: baseline;
+}
 
 .site_logo_text {
     color: #FFF;
@@ -24,6 +28,10 @@ footer {
     line-height: 91%;
     letter-spacing: 0.3px;
     text-transform: uppercase;
+    padding-top: 22px;
+    width: 128px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .site_logo_text-span {
@@ -38,14 +46,12 @@ footer {
     // align-items: center;
 }
 
-.site_logo_text {
-    width: 128px;
-    height: 57px;
+.footer__list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 124px;
 }
-
-// .footer_list {
-
-// }
 
 .footer_list_item {
     color: var(--main-white, #FFF);
@@ -60,9 +66,10 @@ footer {
     padding-right: 36px;
 }
 
-// .social {
-
-// }
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .footer_copyright_text {
     color: var(--main-white, #FFF);
