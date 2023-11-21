@@ -8,10 +8,10 @@
     align-items: center;
     flex-direction: column;
 
-    &-box_title{
+    &-box__title{
         margin-bottom: 32px;
         &-text{
-            color: var(--Blue---Background, #010A20);
+            color: $black_text;
             text-align: center;
             font-size: 40px;
             font-style: normal;
@@ -20,7 +20,7 @@
         }
     }
 
-    &-box_shadow{
+    &-box__shadow{
         width: 376px;
         height: 929px;
         opacity: 0.9;
@@ -57,7 +57,7 @@
             width: 314px;
             height: 70px;
             margin-bottom: 67px;
-            color: var(--Text-Lighten, #E0E0E0);
+            color: $white_text;
             text-align: center;
             font-size: 16px;
             font-style: normal;
@@ -108,7 +108,7 @@
         background-size: cover;
         background-repeat: no-repeat;
 
-        &-box_shadow{
+        &-box__shadow{
             width: 100%;
             height: 794px;
             opacity: 1;
