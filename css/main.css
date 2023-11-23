@@ -1,71 +1,250 @@
-
 .header-allcontainer {
-    background-color: #06444c;
-    width: 1920px;
-    height: 100px;
+  background-color: #06444c;
+  width: 1920px;
+  height: 100px;
 }
+
 .text-explore_indonesia {
-    color: #FFF;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Roboto;
-font-size: 23.961px;
-font-style: normal;
-font-weight: 900;
-line-height: 80.5%; /* 19.288px */
-letter-spacing: 0.315px;
-text-transform: uppercase;
-position: relative;
-margin-left: 35px;
-top: -64px;
-
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 23.961px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80.5%; /* 19.288px */
+  letter-spacing: 0.315px;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 35px;
+  top: -64px;
 }
+
 .block-explore_indonesia-gradient {
-    opacity: 0.2;
-background: linear-gradient(180deg, rgba(1, 132, 149, 0.00) 7.41%, #018394 90%);
-width: 166.086px;
-height: 20px;
-flex-shrink: 0;
-position: relative;
-top: -105px;
-margin-left: 10px;
+  opacity: 0.2;
+  background: linear-gradient(180deg, rgba(1, 132, 149, 0) 7.41%, #018394 90%);
+  width: 166.086px;
+  height: 20px;
+  flex-shrink: 0;
+  position: relative;
+  top: -105px;
+  margin-left: 10px;
 }
+
 ol {
-    list-style-type:  none;
-
+  list-style-type: none;
 }
+
 .list-in-block_indonesia-gradient_ {
-   
-    position: relative;
-    top: -170px;
-    margin-left: 200px;
+  position: relative;
+  top: -170px;
+  margin-left: 200px;
 }
+
 .list-indonesia-margin {
-    margin-right: 30px;
-    color: #FFF;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-
+  margin-right: 30px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.list-indonesia-margin-flex{
-    display: flex;
-    margin-left: 35px;
-    
+.list-indonesia-margin-flex {
+  display: flex;
+  margin-left: 35px;
 }
+
 .list-indonesia-margi {
-    margin-right: 30px;
+  margin-right: 30px;
 }
+
 .svg-search {
-    position: relative;
+  position: relative;
   right: -1200px;
   top: -220px;
 }
+
 .svg-menu-svg {
-    position: relative;
-    right: -1270px;
-    top: -248px;
+  position: relative;
+  right: -1270px;
+  top: -248px;
 }
 
+.section-video {
+  background-image: url(/assets/hugo-matilla-background.png);
+  height: 1451px;
+  width: 375px;
+}
+
+.text-main-video-class {
+  position: relative;
+  width: 270px;
+  height: 143px;
+  flex-shrink: 0;
+  color: var(--colors-white, #FFF);
+  text-align: center;
+  top: -1410px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-left: 52px;
+  z-index: 2;
+}
+
+.videokssks {
+  width: 314px;
+  height: 192px;
+  flex-shrink: 0;
+  top: -1210px;
+  position: relative;
+  margin-left: 29px;
+  z-index: 3;
+  border-radius: 10px;
+}
+
+.section-video-opacity {
+  height: 1451px;
+  width: 375px;
+  background-color: rgb(0, 0, 10);
+  position: relative;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.button-section-video-main {
+  width: 67px;
+  height: 67.351px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--action-third, #E93A7D);
+  position: relative;
+  top: -1340px;
+  margin-left: 150px;
+  z-index: 5;
+}
+
+.triangle-section-video-main {
+  margin-left: 28px;
+  top: 24px;
+  position: relative;
+}
+
+.video-section-video-not-main {
+  position: relative;
+  margin-left: 29px;
+  top: -1250px;
+  z-index: 1;
+  border-radius: 5px;
+  width: 314px;
+  height: 176px;
+}
+
+.triangle-section-video {
+  position: relative;
+  margin-left: 150px;
+  top: -100px;
+}
+
+.main-text-half-section {
+  width: 217.878px;
+  height: 35.661px;
+  flex-shrink: 0;
+  color: var(--colors-white, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-left: 45px;
+  top: -10px;
+  position: relative;
+}
+
+.lorem-text-half-section-video {
+  width: 260.718px;
+  height: 142.643px;
+  flex-shrink: 0;
+  color: var(--colors-white, #FFF);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-left: 25px;
+  opacity: 0.7;
+  position: relative;
+  top: -10px;
+}
+
+.video-section-video-not2-main {
+  position: relative;
+  margin-left: 29px;
+  top: -1050px;
+  z-index: 1;
+}
+
+@media (min-width: 1440px) {
+  .section-video {
+    min-width: 1930px;
+    min-height: 1476px;
+    background-image: url(/assets/hugo-matilla-EFuCATqfblI-unsplash\ 1\ \(1\).png);
+  }
+  .section-video-opacity {
+    width: 1930px;
+    height: 1476px;
+    flex-shrink: 0;
+  }
+  .text-main-video-class {
+    width: 1100px;
+    height: 142.643px;
+    margin-left: 442px;
+  }
+  .videokssks {
+    width: 1056px;
+    height: 594px;
+    flex-shrink: 0;
+    margin-left: 442px;
+    position: relative;
+    top: -1363px;
+  }
+  .button-section-video-main {
+    position: relative;
+    margin-left: 940px;
+    top: -1700px;
+  }
+  .video-section-video-not-main {
+    width: 233px;
+    height: 151px;
+    flex-shrink: 0;
+    margin-left: 360px;
+  }
+  .main-text-half-section {
+    position: relative;
+    top: -210px;
+    left: 280px;
+  }
+  .lorem-text-half-section-video {
+    position: relative;
+    top: -210px;
+    left: 300px;
+    width: 270.629px;
+    height: 142.643px;
+    text-align: left;
+    margin-left: 60px;
+  }
+  .video-section-video-not2-main {
+    position: relative;
+    margin-left: 1045px;
+    top: -1400px;
+    width: 234px;
+    height: 151px;
+    flex-shrink: 0;
+  }
+}
