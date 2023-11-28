@@ -1,4 +1,7 @@
 // SASS utils
+@import "components/colors";
+@import "components/footer";
+@import "components/logo";
 @import "utils/placeholders";
 @import "utils/mixins";
 
@@ -6,32 +9,40 @@
 
 
 // SASS main
-footer {
+.footer {
     background: var(--Blue---Background, #010A20);
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    .responsive {
+        max-width: 1140px;
+    }
 }
+
+// .footer .responsive {
+//     max-width: 1140px;
+// }
 
 .site__logo {
     display: flex;
     // align-items: baseline;
-}
 
-.site_logo_text {
-    color: #FFF;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 91%;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
-    padding-top: 22px;
-    width: 128px;
-    display: flex;
-    flex-wrap: wrap;
+    &--text {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 91%;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+        padding-top: 22px;
+        width: 128px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .site_logo_text-span {
@@ -51,19 +62,19 @@ footer {
     align-items: center;
     flex-direction: row;
     padding-left: 124px;
-}
 
-.footer_list_item {
-    color: var(--main-white, #FFF);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: DM Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    padding-right: 36px;
+    &--item {
+        color: var(--main-white, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 1px;
+        list-style-type: none;
+        padding-right: 36px;
+    }
 }
 
 .social {
@@ -83,3 +94,8 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+// .footer_up_btn {
+//     position: absolute;
+//     right: 99px;
+// }

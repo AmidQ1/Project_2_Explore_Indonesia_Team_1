@@ -1,15 +1,17 @@
-footer {
+.footer {
   background: var(--Blue---Background, #010A20);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.footer .responsive {
+  max-width: 1140px;
+}
 
 .site__logo {
   display: flex;
 }
-
-.site_logo_text {
+.site__logo--text {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Roboto;
@@ -42,8 +44,7 @@ footer {
   flex-direction: row;
   padding-left: 124px;
 }
-
-.footer_list_item {
+.footer__list--item {
   color: var(--main-white, #FFF);
   font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
